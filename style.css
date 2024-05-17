@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section{
+    background-image: url(https://images.unsplash.com/photo-1689656966481-043a970b7c76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+}
+
+.section>h1{
+        color: white;
+}
+
+.section>h4{
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+}
+
+.section>button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    box-shadow: .05px 1px 2px black;
+}
